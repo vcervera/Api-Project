@@ -30,7 +30,7 @@ function displayFilm(json) {
     film.innerText= json.title;
     filminfo.appendChild(film);
 }
-}
+
 
 
 // function nextPage(e) {
