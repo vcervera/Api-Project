@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Ghibli API</title>
+</head>
+<body>
+
+    <h1>Studio Ghibli</h1>
+
+    <div class="wrapper">
+        <div class="controls">
+        <form>
+          <p>
+            <label for="search">Search for film here</label>
+            <input type="text" id="search" class="search" required>
+          </p>  
+          <p>
+            <button class="submit">Sumbit Search</button>
+          </p>
+        </form>
+        </div>
+        <!---Results Section-->
+        <div class="results">
+
+            <!---Results Navigation-->
+            <nav>
+                <button class="prev">Previous </button>
+                <button class="next">Next</button>
+            </nav>
+            <!--Results from Request-->
+            <section>
+              <main>
+                <div class = "filminfo"></div>
+              </main>
+            </section>
+        </div>
+    </div>
+    <script type="text/javascript" src="api.js"></script>
+</body>
+</html>
