@@ -1,0 +1,51 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 15px;
+    background: url(./assets/opera.jpg) no-repeat center center fixed;
+    background-size: cover;}
+
+
+body {
+    font-family:'Viaoda Libre', cursive; 
+    font-size: 15px;
+    color:rgb(201, 149, 47);
+    max-height: 100vh;
+}
+
+ #button{
+    margin: 0;
+    position: absolute; 
+    top: 450px;
+    left: 50%;
+   -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);  
+    text-align: center;
+   
+} 
+section.title{
+    position: fixed;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 640px;
+    /* color: sienna; */
+    color: rgb(216, 132, 23);
+} 
+
+#bgimg{
+    position: fixed;
+    margin-top: 305px;
+    margin-left: 500px;
+    border-radius: 0% 0% 15% 15%;
+}
+
+.filminfo{
+    position: absolute;
+    top: 250px;
+    margin-left: 505px;
+    color: rgb(197, 138, 9);
+}
